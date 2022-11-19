@@ -6,7 +6,6 @@
 
 def main():
 
-    # initialize variables
     # initializing counters
     p_num_counter = 0
     n_num_counter = 0
@@ -16,7 +15,7 @@ def main():
         # input
         # ask user for input
         User_input = input("Enter any number or press q to quit: ")
-        # checks if user input is q
+        # checks if user input is "q"
         if User_input == "q":
             print()
             print(
@@ -25,7 +24,7 @@ def main():
                 )
             )
             break
-        # if user input is not q then convert user input to an integer
+        # if user input is not "q" then convert user input to an integer
         else:
             try:
                 User_number = int(User_input)
